@@ -1,6 +1,6 @@
-*{
+/**{
 		outline:1px solid red;
-	}
+	}*/
 
 html body{
 	width: 100%;
@@ -13,7 +13,7 @@ body {
 }
 
 .space {
-	height: 45px;
+	height: 42px;
 	width: 1280px;
 	background-color: #fff;
 }
@@ -21,7 +21,7 @@ body {
 header {
 	position: fixed;
 	height: 45px;
-	width: 1280px;
+	width: 1281px;
 	background-color: #34495e;
 	z-index: 99;
 }
@@ -64,7 +64,7 @@ h2 {
 	font-weight: 400;*/
 	position: absolute;
 	top: 13px;
-	left: 80px;
+	left: 120px;
 	margin: 0px;
 	z-index: 100;
 }
@@ -72,7 +72,7 @@ h2 {
 .logo {
  	position: absolute;
  	margin-top: 3px;
- 	margin-left: 30px;
+ 	margin-left: 70px;
  	width: 30px;
  	height: 30px;
 }
@@ -97,11 +97,18 @@ h2 {
 	z-index: 99;
 }
 
+.propic {
+	width: 900px;
+	overflow: visible;
+
+
+}
+
 /*.colorover {
 	height: 250px;
 	width: 291px;
 	position: fixed;
-	background-color: hsla(0, 96%, 66%, 0.3);
+	background-color: hsla(210, 29%, 29%, 0.82);
 	z-index: 100;
 
 }*/
@@ -109,6 +116,7 @@ h2 {
 .mainwrap {
 	margin: 0 auto;
 	width: 1280px;
+	
 
 }
 
@@ -116,11 +124,15 @@ h2 {
 .wrapper{
 	float: left;
 	margin: 0 auto;
+
 }
 
 .wrapperproject {
 	float: left;
 	margin: 0 auto;
+	/*background-color: hsla(210, 29%, 29%, 0.6);*/
+	border: solid 1px #34495e;
+	
 }
 
 .homecover {
@@ -146,20 +158,37 @@ h2 {
 .leftside {
 	/*background-color: hsla(0, 96%, 66%, 0.3);*/
 	width: 900px;
-	height: 2000px;
-	margin-left: 105px;
+	height: 1000px;
+	/*margin-left: 186px;*/
+	margin-left: 80px;
 	float: left;
-	background-color: gray;
+	/*background-color: #ccc;*/
 	z-index: 100;
+	overflow: visible;
 }
 
-.bottomside{
+/*.bottomside{
 	position: fixed;
 	width: 1280px;
 	height: 130px;
-	background-color: hsla(0, 96%, 66%, 0.3);
+	background-color: hsla(210, 29%, 29%, 0.82);
 	z-index: 102;
 	bottom: 0;
+}*/
+
+.bottomside2{
+	float:left;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+	height: 300px;
+	z-index: 102;
+	right: 0px;
+}
+
+.description {
+	height: 130px;
+
 }
 
 .nav {
