@@ -10,9 +10,9 @@ $(document).ready(function(){
    window.location.href='impact.html';
   }).ready()
 
-  $( document ).ready(function() {
-  $scope.currentIndex = 1;
-});
+//   $( document ).ready(function() {
+//   $scope.currentIndex = 1;
+// });
 
      
 });

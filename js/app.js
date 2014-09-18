@@ -19,8 +19,8 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
         ];
 
 
-        // $scope.direction = 'left';
-        // $scope.currentIndex = 1;
+        $scope.direction = 'left';
+        $scope.currentIndex = 1;
 
         // $('.indy').on("click", function(e){
         // $scope.currentIndex = 0;
@@ -28,10 +28,10 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
 
  
 
-        $scope.indy = function () {
-            $scope.direction = 'left';
-            $scope.currentIndex = 1;
-        };
+        // $scope.indy = function () {
+        //     $scope.direction = 'left';
+        //     $scope.currentIndex = 1;
+        // };
      
    
 
