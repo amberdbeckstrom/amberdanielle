@@ -20,20 +20,12 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
 
 
         // $scope.direction = 'left';
-        // $scope.currentIndex = 1;
+        $scope.currentIndex = 0;
 
         // $('.indy').on("click", function(e){
-        // $scope.currentIndex = 0;
+        // $scope.direction = 'left';
+        // $scope.currentIndex = 1;
         // });
-
- 
-
-        $scope.indy = function () {
-            $scope.direction = 'left';
-            $scope.currentIndex = 1;
-        };
-     
-   
 
 
         $scope.setCurrentSlideIndex = function (index) {
