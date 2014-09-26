@@ -4,7 +4,6 @@
 
 html body{
 	width: 100%;
-	/*min-height:100%;*/
 	margin:0;
 	padding:0;
 	height:100%;
@@ -12,7 +11,6 @@ html body{
 
 body {
 	margin: 0 auto;
-	/*background-color: blue;*/
 	height: 100%;
 }
 
@@ -63,29 +61,35 @@ h3 {
 	float: left;
 	padding: 0 0 0 0px;
 	font-size: 1.3em;
-	color: #363636;
+	color: #636363;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 700;
-	margin-top: 2px;
+	margin: 13px 0 0 16px;
 }
 
 h4 {
 	float: right;
-	padding: 0 0px 0 0px;
-	font-size: 1em;
+	padding: 0 1px 0 0px;
+	font-size: .8em;
 	color: #636363;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 400;
-	margin-top: 7px;
+	margin: 20px 20px 0 0;
+}
+
+h4.tools {
+	float: left;
+	margin: 10px 0px 0px 16px;
 }
 
 h5 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 400;
-	padding: 0 0 0 0px;
-	height: 130px;
-	clear:both;
-
+	padding: 0 0px 0 0px;
+	height: 100px;
+	/*clear:both;*/
+	float: left;
+	margin: 8px 20px 0px 16px;
 }
 
 .second {
@@ -97,7 +101,7 @@ h5 {
 	font-weight: 400;*/
 	position: absolute;
 	top: 13px;
-	left: 120px;
+	left: 190px;
 	margin: 0px;
 	z-index: 100;
 }
@@ -105,7 +109,7 @@ h5 {
 .logo {
  	position: absolute;
  	margin-top: 3px;
- 	margin-left: 70px;
+ 	margin-left: 140px;
  	width: 30px;
  	height: 30px;
 }
@@ -125,32 +129,20 @@ h5 {
  	left: 10px;
 }
 
+
 .coverpic {
 	width:100%;
 	z-index: 99;
 }
 
 .propic {
-	width: 900px;
+	width: 600px;
 	overflow: visible;
-
-
 }
-
-/*.colorover {
-	height: 250px;
-	width: 291px;
-	position: fixed;
-	background-color: hsla(210, 29%, 29%, 0.82);
-	z-index: 100;
-
-}*/
 
 .mainwrap {
 	margin: 0 auto;
 	width: 1280px;
-	
-
 }
 
 
@@ -163,84 +155,46 @@ h5 {
 
 .wrapperproject {
 	position: absolute;
-	/*background-color: hsla(210, 29%, 29%, 0.6);*/
-	/*border: solid 1px #34495e;
-	background-color: #ccc;*/
 	width: 1280px;
 	height: 100%;
-
-	
-	
 }
 
 .homecover {
-	/*background-color: hsla(0, 96%, 66%, 0.3);*/
 	height: 385px;
 	width: 1280px;
 	position: relative;
 	clear:both;
-
-	/*background-color: purple;*/
 }
 
 .project {
-	/*background-color: hsla(0, 96%, 66%, 0.3);*/
 	height: 250px;
 	width: 320px;
 	float: left;
 	overflow: hidden;
-
-	/*background-color: purple;*/
 }
 
 .leftside {
-	/*background-color: hsla(0, 96%, 66%, 0.3);*/
-	width: 900px;
+	width: 600px;
 	height: 1000px;
-	/*margin-left: 186px;*/
-	margin-left: 80px;
+	margin-left: 150px;
 	float: left;
-	/*background-color: #ccc;*/
 	z-index: 100;
 	overflow: visible;
 }
 
-/*.bottomside{
-	position: fixed;
-	width: 1280px;
-	height: 130px;
-	background-color: hsla(210, 29%, 29%, 0.82);
-	z-index: 102;
-	bottom: 0;
-}*/
-
 .bottomside2{
 	float:left;
 	margin-top: 50px;
-	margin-left: 32px;
-	width: 245px;
-	height: 30px;
+	margin-left: 38px;
+	width: 320px;
+	height: 180px;
 	z-index: 102;
 	right: 0px;
 	border-top: double #34495e;
 	border-bottom: double #34495e;
 }
 
-.bottomside3{
-	float:left;
-	margin-top: 7px;
-	margin-left: 32px;
-	width: 245px;
-	/*overflow: visible;*/
-	z-index: 102;
-	right: 0px;
-	/*border-top: double #34495e;*/
-	/*border-bottom: double #34495e;*/
-}
-
-
 .nav {
-	/*float: right;*/
 	position: absolute;
 	top: 7px;
 	right: 0px;
@@ -250,11 +204,10 @@ h5 {
 }
 
 .nav2 {
-	/*float: right;*/
 	margin:0px;
 	position: absolute;
 	top: 12px;
-	right: 0px;
+	right: 123px;
 	list-style-type: none;
  	width:130px;
  	height: 30px;
@@ -334,5 +287,265 @@ li {
     background-image: url(img/paddle_next_fff.png);
 }
 
+/*********************************************************************************/
+/* Mobile*/
+/*********************************************************************************/
+
+
+
+@media (max-width: 540px) and (orientation: portrait) {
+
+html body{
+	width: 540px;
+	height:100%;
 }
+
+body {
+	width: 540px;
+}
+
+.space {
+	height: 42px;
+	width: 540px;
+}
+
+.mainwrap {
+	width: 540px;
+}
+
+.wrapper{
+	width: 540px;
+}
+
+.homecover {
+	width: 540px;
+	height: 200px;
+}
+
+.hmimage {
+	width: 540px;
+	height: 200px;
+}
+
+header {
+	position: absolute;
+	height: 45px;
+	width: 540px;
+}
+
+.logo2 {
+	top: 40px;
+ 	left: 255px;
+	width: 40px;
+	height: 40px;
+}
+
+h1 {
+	font-size: 2.3em;
+	top: 82px;
+	left: 160px;
+}
+
+h2 {
+	font-size: .7em;
+	top: 130px;
+	left: 202px;
+}
+
+.logo {
+ 	margin-top: 3px;
+ 	margin-left: 190px;
+ 	width: 30px;
+ 	height: 30px;
+}
+
+.second {
+	font-size: 1em;
+	top: 13px;
+	left: 235px;
+}
+
+.wrapperproject {
+	width: 540px;
+}
+
+.leftside {
+	width: 540px;
+	height: 1000px;
+	margin-top: 200px;
+	margin-left: 0px;
+}
+
+.propic {
+	width: 540px;
+}
+
+.project {
+	height: 210px;
+	width: 270px;
+	float: left;
+	overflow: hidden;
+}
+
+.bottomside2{
+	position: relative;
+	margin: -1180px 0px 0px 25px;
+	width: 490px;
+	height: 145px;
+}
+
+h4.tools {
+	margin: 10px 0px 0px 16px;
+}
+
+h5 {
+	height: 60px;
+	margin: 8px 20px 0px 16px;
+}
+
+}
+
+
+/*********************************************************************************/
+/* Mobile*/
+/*********************************************************************************/
+
+
+
+@media (max-width: 320px) and (orientation: portrait) {
+
+html body{
+	width: 320px;
+}
+
+.space {
+	height: 42px;
+	width: 320px;
+	background-color: #fff;
+}
+
+.mainwrap {
+	margin: 0 auto;
+	width: 320px;
+}
+
+.wrapper{
+	float: left;
+	margin: 0 auto;
+	height: 100%;
+	width: 320px;
+	margin-top: 0px;
+}
+
+.homecover {
+	width: 320px;
+	height: 150px;
+	position: relative;
+	clear:both;
+}
+
+.hmimage {
+	width: 320px;
+	height: 150px;
+}
+
+header {
+	position: absolute;
+	height: 45px;
+	width: 320px;
+}
+
+.logo2 {
+ 	top: 30px;
+ 	left: 147px;
+	width: 30px;
+	height: 30px;
+}
+
+h1 {
+	font-size: 2.3em;
+	top: 57px;
+	left: 50px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: .7em;
+	top: 105px;
+	left: 91px;
+}
+
+.logo {
+ 	margin-top: 3px;
+ 	margin-left: 81px;
+ 	width: 30px;
+ 	height: 30px;
+}
+
+.second {
+	font-size: 1em;
+	top: 13px;
+	left: 128px;
+	margin: 0px;
+}
+
+.wrapperproject {
+	width: 320px;
+}
+
+.leftside {
+	width: 320px;
+	height: 1000px;
+	margin-top: 210px;
+	margin-left: 0px;
+	float: left;
+}
+
+.propic {
+	width: 320px;
+	overflow: visible;
+}
+
+.coverpic {
+	width:100%;
+}
+
+.project {
+	height: 250px;
+	width: 320px;
+}
+
+.bottomside2{
+	position: relative;
+	margin: -1189px 0px 0px 15px;
+	width: 290px;
+	height: 165px;
+}
+
+h4 {
+	padding: 0 1px 0 0px;
+	font-size: .8em;
+	margin: 22px 20px 0 0;
+}
+
+h4.tools {
+	margin: 34px 0px 0px 16px;
+}
+
+h5 {
+	height: 60px;
+	margin: 8px 20px 0px 16px;
+}
+
+.arrow {
+   display: none;
+}
+
+}
+
+
+
+
+
+
 

@@ -6,9 +6,9 @@ $(document).ready(function(){
 
 // $scope.currentIndex = 1;
 
-  $('.indy').click(function(){
-   window.location.href='impact.html';
-  }).ready()
+  // $('.indy').click(function(){
+  //  window.location.href='impact.html';
+  // }).ready()
 
 //   $( document ).ready(function() {
 //   $scope.currentIndex = 1;
